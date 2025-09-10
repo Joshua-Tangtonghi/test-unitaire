@@ -33,10 +33,28 @@ namespace Maths_Matrices
             }
         }
 
+        // Constructeur de copie
+        public MatrixInt(MatrixInt other)
+        {
+            NbLines = other.NbLines;
+            NbColumns = other.NbColumns;
+            _values = new int[NbLines, NbColumns];
+
+            for (int i = 0; i < NbLines; i++)
+            {
+                for (int j = 0; j < NbColumns; j++)
+                {
+                    _values[i, j] = other[i, j];
+                }
+            }
+        }
+
+
         // Indexeur
         public int this[int i, int j]
         {
             get => _values[i, j];
+            set => _values[i, j] = value;
         }
 
         // Retourne un tableau 2D (copie)

@@ -9,5 +9,6 @@
     &lt;TestId&gt;NUnit3x::A07AF9C2-F127-4E39-941C-40B8D23792EC::net8.0::TestProject1.Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A07AF9C2-F127-4E39-941C-40B8D23792EC::net8.0::Maths_Matrices.Tests.MatrixInt&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A07AF9C2-F127-4E39-941C-40B8D23792EC::net8.0::Maths_Matrices.Tests.Tests01_NewMatrices&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A07AF9C2-F127-4E39-941C-40B8D23792EC::net8.0::Maths_Matrices.Tests.Tests02_CopyAndModifyMatrices&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
